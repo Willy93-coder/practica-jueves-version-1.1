@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,104 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- GRIDS -->
+    <section class="grid1x3">
+    <!-- HEADER -->
+    <header>
+        <!-- Título -->
+        <h1 class="titulo__principal">Sr.Mueble</h1>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <!-- banner -->
+        <picture class="banner">
+            <source srcset="
+            ./img/sillon_azul.jpg 1x, 
+            ./img/sillon_azul@2x.jpg 2x, 
+            ./img/sillon_azul@3x.jpg 3x">
+            <img src="" alt="silla de color azul pastel">
+        </picture>
+        <section class="telefono">
+            <a href="#+34666666666">+34 666 666 666</a>
+        </section>
+        <!-- ¿Quienes somos? -->
+        <section class="quienesSomos grid4x4">
+            <!-- Título -->
+            <h3 class="quienesSomos__titulo">¿Quienes somos?</h3>
+            <!-- Subtítulo 1988 -->
+            <h4 class="quienesSomos__1988">1988</h4>
+            <!-- Párrafo 1988 -->
+            <p class="quienesSomos__p1988">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur dolore ipsum ut.</p>
+            <!-- Subtítulo 1994 -->
+            <h4 class="quienesSomos__1994">1994</h4>
+            <!-- Párrafo 1994 -->
+            <p class="quienesSomos__p1994">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur dolore ipsum ut.</p>
+        </section>
+        <!-- Youtube -->
+        <iframe src="" frameborder="0"></iframe>
+        <!-- SERVICIOS -->
+        <section class="servicios">
+            <h3 class="servicios__titulo">SERVICIOS</h3>
+            <!-- Imagen 1 -->
+            <picture class="servicios__img1">
+                <source srcset="
+                ./img/sofa_amarillo.jpg 1x, 
+                ./img/sofa_amarillo@2x.jpg 2x, 
+                ./img/sofa_amarillo@3x.jpg 3x">
+                <img src="" alt="sofa de color amarillo visto desde arriba">
+            </picture>
+            <!-- Imagen 2 -->
+            <picture class="servicios__img2">
+                <source srcset="
+                ./img/sofa_naranja.jpg 1x, 
+                ./img/sofa_naranja@2x.jpg 2x, 
+                ./img/sofa_naranja@3x.jpg 3x">
+                <img src="" alt="sofa de color naranja visto de frente">
+            </picture>
+            <!-- Imagen 3 -->
+            <picture class="servicios__img3">
+                <source srcset="
+                ./img/sofa_turquesa.jpg 1x, 
+                ./img/sofa_turquesa@2x.jpg 2x, 
+                ./img/sofa_turquesa@3x.jpg 3x">
+                <img src="" alt="sofa de color azul turquesa visto desde arriba">
+            </picture>
+        </section>
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <h3 class="newsletter__titulo">¿Quieres recibir nuestras novedades?</h3>
+            <form class="newsletter__formulario">
+                <input 
+                type="email"
+                placeholder="E-mail"
+                class="newsletter__formulario__email">
+                <button class="newsletter__formulario__btn" type="submit">REGISTRATE</button>
+            </form>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <!-- Sección 1 -->
+        <section class="seccion1">
+            <h5 class="seccion1__contactar">Contactar</h5>
+            <ul class="seccion1__direccion">
+                <li>Dirección Plaza España, 34</li>
+                <li>Palma de Mallorca</li>
+                <li>info@srmuebles.com</li>
+            </ul>
+        </section>
+        <!-- Sección 2 -->
+        <section class="seccion2">
+            <h5 class="seccion2__redes">Redes</h5>
+            <ul class="seccion2__links">
+                <li><a href="#" class="seccion2__links__redes">Twitter</a></li>
+                <li><a href="#" class="seccion2__links__redes">Pinterest</a></li>
+                <li><a href="#" class="seccion2__links__redes">Instagram</a></li>
+            </ul>
+        </section>
+        <!-- Copyright -->
+        <h6 class="copyright">Copyright 2021 - SrMueble</h6>
+    </footer>
+    </section>
 </body>
 </html>

@@ -12,7 +12,18 @@ a{
     color: black;
 }
 
-/* Elimina las viñetas de las listas <ul> */
+/* Eliminar las viñetas de las listas <ul> */
 ul{
     list-style-type: none;
+    /* padding: 0; */
+}
+
+/* Eliminar los estilos de los botones predeterminados */
+button{
+    border: none;
+}
+
+/* Eliminar estilos de los h1 */
+h1{
+    margin: 0;
 }

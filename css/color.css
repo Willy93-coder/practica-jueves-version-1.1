@@ -1,2 +1,31 @@
 /* CSS COLOR */
 /* **************************************************************** */
+:root{
+    --colorBlack: #3A3A3A;
+    --colorOrange: #FFCB13;
+    --colorWhite: #F5F5F5;
+}
+
+/* @HEADER */
+.telefono{
+    background-color: var(--colorOrange);
+}
+/* **************************************************************** */
+
+/* @MAIN */
+.newsletter__formulario__btn{
+    background-color: var(--colorOrange);
+}
+
+/* **************************************************************** */
+
+/* @FOOTER */
+    footer{
+        background-color: var(--colorBlack);
+        color: var(--colorWhite);
+    }
+
+    .seccion2__links__redes{
+        color: var(--colorWhite);
+    }
+/* **************************************************************** */
